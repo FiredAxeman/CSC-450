@@ -25,7 +25,7 @@ int main() {
         // Concatenate the strings
         combinedString = string1 + string2;
 
-        // Print the resulting output
+        // Print the output
         std::cout << "Concatenated Output: " << combinedString << "\n";
     }
 
