@@ -36,6 +36,7 @@ int main() {
     std::cout << "\n--- 2. Formatting State Leak Demonstration ---\n";
     printMemoryAddress(255); // 255 becomes 'ff'
 
+
     // Because std::hex is persistent, subsequent integer output is corrupted.
     int unread_messages = 10;
 
